@@ -1,0 +1,416 @@
+@media (min-device-width : 320px) and (max-device-width : 480px) {    
+    .text-center #res{
+            margin-top: 25%;
+        background-color: red;
+    }
+    #about_us{
+        background-image: url("../img/wallpaper/164624.jpg");
+        background-attachment: fixed;
+        background-position: 50% 50%;
+        
+        padding: 75px;
+        font-family: sans-serif, monospace;
+    }
+    #about_us h5 marks{
+        color: aquamarine;
+        font-size: 22px;
+        line-height: 34px;
+        text-align: center;
+    }
+    #about_us h5 span{
+        color: white;
+        font-size: 22px;
+        line-height: 34px;
+        text-align: center;
+    }
+    #myservices_new{
+    
+    font-family: graphik, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    color: #071E3C;
+    padding-top: 45px;
+    }
+    
+.myServices .service_margine{
+    
+    margin: 0 25px;
+    
+    }
+    
+.myServices h3{
+    
+    font-family: museo-sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #071E3C;
+    margin-bottom: 20px;
+    }
+    
+.myServices p{
+    
+    font-family: museo-sans, sans-serif;
+    font-size: 100%;
+    line-height: 30px;
+    font-weight: 300;
+    vertical-align: baseline;
+    color: #071E3C;
+    margin-bottom: 20px;
+        
+    }
+    
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #about_us{
+        background-image: url("../img/wallpaper/164624.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        padding: 75px;
+        font-family: sans-serif, monospace;
+    }
+    #about_us .container h5 marks{
+        font-size: 28px;
+        font-style: normal;
+        line-height: 34px;
+        color: aquamarine;
+        font-weight: bold;
+        
+    }
+    #about_us .container h5 span{
+        color: white;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #myservices_new{
+    
+    font-family: graphik, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    color: #071E3C;
+    padding-top: 45px;
+    }
+    
+.myServices .service_margine{
+    
+    margin: 0 25px;
+    
+    
+    }
+    
+.myServices h3{
+    
+    font-family: museo-sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #071E3C;
+    margin-bottom: 20px;
+    }
+    
+.myServices p{
+    
+    font-family: museo-sans, sans-serif;
+    font-size: 100%;
+    line-height: 30px;
+    font-weight: 300;
+    vertical-align: baseline;
+    color: #071E3C;
+    margin-bottom: 20px;
+        
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #about_us{
+        background-image: url("../img/wallpaper/164622.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        padding: 75px;
+        font-family: sans-serif, monospace;
+    }
+    #about_us .container h5 marks{
+        font-size: 28px;
+        font-style: normal;
+        line-height: 34px;
+        color: aquamarine;
+        font-weight: bold;
+        
+    }
+    #about_us .container h5 span{
+        color: white;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #myservices_new{
+    
+    font-family: graphik, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    color: #071E3C;
+    padding-top: 45px;
+    }
+    
+.myServices .service_margine{
+    
+    margin: 0 25px;
+    
+    
+    }
+    
+.myServices h3{
+    
+    font-family: museo-sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #071E3C;
+    margin-bottom: 20px;
+    }
+    
+.myServices p{
+    
+    font-family: museo-sans, sans-serif;
+    font-size: 100%;
+    line-height: 30px;
+    font-weight: 300;
+    vertical-align: baseline;
+    color: #071E3C;
+    margin-bottom: 20px;
+        
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #about_us{
+        background-image: url("../img/wallpaper/164622.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        padding: 75px;
+        font-family: sans-serif, monospace;
+    }
+    #about_us .container h5 marks{
+        font-size: 28px;
+        font-style: normal;
+        line-height: 34px;
+        color: aquamarine;
+        font-weight: bold;
+        
+    }
+    #about_us .container h5 span{
+        color: white;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #myservices_new{
+    
+    font-family: graphik, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    color: #071E3C;
+    padding-top: 45px;
+    }
+    
+.myServices .service_margine{
+    
+    margin: 0 25px;
+    
+    
+    }
+    
+.myServices h3{
+    
+    font-family: museo-sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #071E3C;
+    margin-bottom: 20px;
+    }
+    
+.myServices p{
+    
+    font-family: museo-sans, sans-serif;
+    font-size: 100%;
+    line-height: 30px;
+    font-weight: 300;
+    vertical-align: baseline;
+    color: #071E3C;
+    margin-bottom: 20px;
+        
+    }
+  
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 768px) {
+    /* working on the Desktop display*/
+    #about_us{
+        background-image: url("../img/wallpaper/164622.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        padding: 75px;
+        font-family: sans-serif, monospace;
+    }
+    #about_us .container h5 marks{
+        font-size: 28px;
+        font-style: normal;
+        line-height: 34px;
+        color: aquamarine;
+        font-weight: bold;
+        
+    }
+    #about_us .container h5 span{
+        color: white;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    #myservices_new{
+    
+    font-family: graphik, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    color: #071E3C;
+    padding-top: 45px;
+    }
+    
+.myServices .service_margine{
+    
+    margin: 0 25px;
+    
+    
+    }
+    
+.myServices h3{
+    
+    font-family: museo-sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #071E3C;
+    margin-bottom: 20px;
+    }
+    
+.myServices p{
+    
+    font-family: museo-sans, sans-serif;
+    font-size: 100%;
+    line-height: 30px;
+    font-weight: 300;
+    vertical-align: baseline;
+    color: #071E3C;
+    margin-bottom: 20px;
+        
+    }
+    
+}
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    /* Styles */ 
+#about_us{
+        background-image: url("../img/wallpaper/164622.jpg");
+        background-attachment: fixed;
+        background-position: 50% 50%;
+        padding: 75px;
+        font-family: sans-serif, monospace;
+    }
+    
+#about_us .container h5 marks{
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800px;
+        line-height: 34px;
+        color: aquamarine;
+        font-weight: bold;
+        
+    }
+#about_us .container h5 span{
+        color: white;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+#myservices_new{
+    
+    font-family: graphik, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    color: #071E3C;
+    padding-top: 45px;
+    }
+    
+.myServices .service_margine{
+    
+    margin: 0 25px;
+    
+    
+    }
+    
+.myServices h3{
+    
+    font-family: museo-sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #071E3C;
+    margin-bottom: 20px;
+    }
+    
+.myServices p{
+    
+    font-family: museo-sans, sans-serif;
+    font-size: 100%;
+    line-height: 30px;
+    font-weight: 300;
+    vertical-align: baseline;
+    color: #071E3C;
+    margin-bottom: 20px;
+        
+    }
+
+}
+

@@ -1,0 +1,104 @@
+/*  FOOTER */
+.ftco-section {
+    /*padding: 7em 0;*/
+    position: relative;
+    }
+    
+    @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; 
+    } 
+    }
+    .ftco-footer {
+    font-size: 16px;
+    background: #000000;
+    padding: 7em 0 0 0;
+    z-index: 0; 
+    }
+    .ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: 600; 
+    }
+    .ftco-footer .ftco-footer-widget ul li {
+    margin-bottom: 10px; 
+    }
+    .ftco-footer .ftco-footer-widget ul li a {
+    color: rgba(255, 255, 255, 0.6); 
+    }
+    .ftco-footer .ftco-footer-widget ul li a span {
+    color: rgba(255, 255, 255, 0.6); 
+    }
+    .ftco-footer p {
+    color: rgba(255, 255, 255, 0.7); 
+    }
+    .ftco-footer a {
+    color: rgba(255, 255, 255, 0.7); 
+    }
+    .text-me{
+    color: rgba(255, 255, 255, 0.7); 
+    }
+    .ftco-footer a:hover {
+    color: #fff;
+    text-decoration: none; 
+    }
+    .ftco-footer-widget .ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block; 
+    }
+    .ftco-footer-widget .ftco-footer-social li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 80%;
+    position: relative; 
+    }
+    .ftco-footer-widget .ftco-footer-social li .twitter:hover{
+    color: #1e9be4;
+    }
+    .ftco-footer-widget .ftco-footer-social li #twitter:hover{
+    background: #e9e8ec;
+    color: #1e9be4;
+    }
+    .ftco-footer-widget .ftco-footer-social li #facebook:hover{
+    background: #3e64ff;
+    }
+    .ftco-footer-widget .ftco-footer-social li #instagram:hover{
+    background: #dc3545;
+    }
+    .ftco-footer-widget .ftco-footer-social li a span {
+    position: absolute;
+    font-size: 26px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    }
+    .ftco-footer-widget .ftco-footer-social li a:hover {
+    color: #fff; 
+    }
+    @media (min-device-width : 320px) and (max-device-width : 480px) {
+        /*.ftco-footer-widget .ftco-footer-social li .twitter{
+            color: #1e9be4;
+        }*/
+        .ftco-footer-widget .ftco-footer-social li #twitter{
+            background: #e9e8ec;
+            color: #1e9be4;
+        }
+        .ftco-footer-widget .ftco-footer-social li #facebook{
+            background: #3e64ff;
+            color: #fff;
+        }
+        .ftco-footer-widget .ftco-footer-social li #instagram{
+            background: #dc3545;
+            color: #fff;
+        }
+      
+      }

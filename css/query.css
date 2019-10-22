@@ -1,0 +1,23 @@
+@media (min-device-width : 320px) and (max-device-width : 480px) {
+    .me i{
+        display: none!important;
+    }
+    .events_section_area #projects{
+    flex-direction: column-reverse;
+}
+.mt-0, .my-0 {
+    margin-top: 2rem!important;
+  }
+    
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 768px) {
+    .mt-0, .my-0 {
+        margin-top: 2rem!important;
+      }
+}
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    
+}
