@@ -1,3 +1,101 @@
+/************ 1-10. promo box  ************/
+.promo-box .item {
+	position: relative;
+	text-align: center;
+	padding: 40px 35px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.promo-box .item i {
+    font-size: 40px;
+    line-height: 30px;
+    color: orange;
+    margin-bottom: 30px;
+    display: inline-block; 
+}
+.promo-box .item h5 {
+	font-family: 'Raleway', sans-serif;
+    color: #1c1c1c;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    z-index: 5;
+}
+.promo-box .item p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.promo-box .fa-arrow-right {
+	position: absolute;
+	font-size: 18px !important;
+	left: 0;
+	right: 0;
+	bottom: -67px;
+	display: flex;
+	justify-content: center;
+	opacity: 0;
+	background: transparent;
+}
+.promo-box .item:hover .fa-arrow-right {
+	opacity: 1;
+}
+.promo-box .item:after {
+	content: url("../img/promo/01.jpg");
+	display: block;
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	 -webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+			 transition: all .3s ease-in-out;
+}
+.promo-box .item:hover:after {
+	opacity: 1;
+	 -webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+			 transition: all .3s ease-in-out;
+}
+.promo-box .item:hover h5,
+.promo-box .item:hover p {
+	color: #ffffff;
+	z-index: 99;
+}
+.promo-box .item:hover i,
+.promo-box .item:hover .fa-arrow-right {
+	color: #ffea00;
+}
+.promo-box .item .content {
+	position: relative;
+	z-index: 99;
+}
+.promo-box .item .overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(1, 83, 159, 0.85);
+	opacity: 0;
+	z-index: 1;
+	 -webkit-transition: opacity .3s ease-in-out;
+		-moz-transition: opacity .3s ease-in-out;
+			 transition: opacity .3s ease-in-out;
+	
+}
+.promo-box .item:hover .overlay {
+	opacity: 1;
+	 -webkit-transition: opacity .3s ease-in-out;
+		-moz-transition: opacity .3s ease-in-out;
+			 transition: opacity .3s ease-in-out;
+
+}
+.bg-ghostwhite {
+    background: #F2F9FF;
+}
+
+
 /* EVENTS SECTION */
 .events_section_area #projects{
     display: flexbox;
