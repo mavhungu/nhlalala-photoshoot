@@ -26,8 +26,34 @@
     <!--- SASS CSS --->
     <link rel="stylesheet" href="">
     <!-- Place your stylesheet here-->
-    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/main/main.css">
+    <!--link rel="stylesheet" href="css/gallery.css"-->
+    <link rel="stylesheet" href="css/main/Stroke-Gap-Icons-Webfont.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
+    <style>
+    /* gallery */
+.gallery-img {
+    backface-visibility: hidden;
+    transition: all .5s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    color: rgba(6, 12, 34, 0.6);
+}
+.gallery-img:hover::before{
+    content: "";
+	background: rgba(6, 12, 34, 0.6);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+
+</style>
 </head>
 
 <body>
@@ -56,52 +82,126 @@
         </ul>
     </div>
 </nav>
-       <!-- MAIN CONTENT START HERE -->
-		<section class="body-content pt-4">
-                <!-- START PROMO BOX HERE -->
-                <div class="promo-box padd-t-100 mt-5">
-                    <div class="container">
-                        <div class="row">
-                            <!-- SINGLE ITEM START HERE -->
-                            <div class="col-md-4">
-                                <div class="item bg-ghostwhite">
-                                    <div class="content">
-                                        <i class="fas fa-camera fa-2x"></i>
-                                        <h5> CAMERA</h5>
-                                        <p>Take picture</p>
-                                        <a href="#"><i class="fas fa-arrow-right fa-2x"></i></a>
-                                    </div>	
-                                    <div class="overlay"></div>
-                                </div><!-- /.END ITEM -->
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-ghostwhite">
-                                    <div class="content">
-                                        <i class="fas fa-video fa-2x"></i>
-                                        <h5>VIDEO</h5>
-                                        <p>Take video</p>
-                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
-                                    </div>	
-                                    <div class="overlay"></div>
-                                </div><!-- /.END ITEM -->
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-ghostwhite">
-                                    <div class="content">
-                                        <i class="fas fa-baby-carriage"></i>
-                                        <h5>EVENTS</h5>
-                                        <p>Host an event</p>
-                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
-                                    </div>	
-                                    <div class="overlay"></div>
-                                </div><!-- /.END ITEM -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.END PROMO BOX -->
-                </section>
-                <!-- END OF MAIN CONTENT-->
+
+    <!-- PAGE TITLE START -->
+		<div class="page-title mt-5">
+			<div class="background-overlay padd-tb-150">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="border-left-yellow padd-l-10 text-uppercase">OUR PORTFOLIO</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!-- /.END PAGE TITLE -->
+        
+        <section class="body-content">
+			<!-- PORTFOLIO START HERE -->
+			<div id="portfolio" class="padd-100x40">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<!-- SECTION TITLE -->
+							<div class="section-title-lg">
+								<span class="sub-title">Popular Work</span>
+								<h2 class="border-left-blue-10 padd-l-10 font-black">OUR PORTFOLIO</h2>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="portfolio-item mrg-bottom-80">
+								<div class="thumbnail no-mrg hover-img">
+                                    <img src="img/portfolio/26501296_Unknown.jpeg" alt="portfolio">
+                                    <div class="hover-content">
+                                        <a href="img/portfolio/26501296_Unknown.jpeg" data-lightbox="library" class="image-large icon">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+								</div>
+							</div>	<!-- /.END ITEM -->
+						</div> <!-- /.END PORTFOLIO ITEM -->
+						<div class="col-md-4 col-sm-6">
+							<div class="portfolio-item mrg-bottom-80">
+								<div class="thumbnail no-mrg hover-img">
+									<img src="img/portfolio/unnamed.jpg"  alt="portfolio">
+									<div class="hover-content">
+								   		<a href="img/portfolio/unnamed.jpg" data-lightbox="library" class="image-large icon">
+								   			<i class="fa fa-search" aria-hidden="true"></i>
+								   		</a>
+									</div>
+								</div>
+							</div>	<!-- /.END ITEM -->
+						</div> <!-- /.END PORTFOLIO ITEM -->
+						<div class="col-md-4 col-sm-6">
+							<div class="portfolio-item mrg-bottom-80">
+								<div class="thumbnail no-mrg hover-img">
+									<img src="img/portfolio/26498960_Unknown.jpeg"  alt="portfolio">
+									<div class="hover-content">
+								   		<a href="img/portfolio/26498960_Unknown.jpeg" data-lightbox="library" class="image-large icon">
+								   			<i class="fa fa-search" aria-hidden="true"></i>
+								   		</a>
+									</div>
+								</div>
+							</div>	<!-- /.END ITEM -->
+						</div> <!-- /.END PORTFOLIO ITEM -->
+						<div class="col-md-4 col-sm-6">
+							<div class="portfolio-item mrg-bottom-80">
+								<div class="thumbnail no-mrg hover-img">
+									<img src="img/portfolio/26499280_Unknown.jpeg"  alt="portfolio">
+									<div class="hover-content">
+								   		<a href="img/portfolio/26499280_Unknown.jpeg" data-lightbox="library" class="image-large icon">
+								   			<i class="fa fa-search" aria-hidden="true"></i>
+								   		</a>
+									</div>
+								</div>
+							</div>	<!-- /.END ITEM -->
+						</div> <!-- /.END PORTFOLIO ITEM -->
+						<div class="col-md-4 col-sm-6">
+							<div class="portfolio-item mrg-bottom-80">
+								<div class="thumbnail no-mrg hover-img">
+									<img src="img/portfolio/26498624_Unknown.jpeg"  alt="portfolio">
+									<div class="hover-content">
+								   		<a href="img/portfolio/26498624_Unknown.jpeg" data-lightbox="library" class="image-large icon">
+								   			<i class="fa fa-search" aria-hidden="true"></i>
+								   		</a>
+									</div>
+								</div>
+							</div>	<!-- /.END ITEM -->
+						</div> <!-- /.END PORTFOLIO ITEM -->
+						<div class="col-md-4 col-sm-6">
+							<div class="portfolio-item mrg-bottom-80">
+								<div class="thumbnail no-mrg hover-img">
+									<img src="img/portfolio/26498960_Unknown.jpeg"  alt="portfolio">
+									<div class="hover-content">
+								   		<a href="img/portfolio/26498960_Unknown.jpeg" data-lightbox="library" class="image-large icon">
+								   			<i class="fa fa-search" aria-hidden="true"></i>
+								   		</a>
+									</div>
+								</div>
+							</div>	<!-- /.END ITEM -->
+						</div> <!-- /.END PORTFOLIO ITEM -->
+					</div>
+				</div>
+			</div>
+			<!-- /.END PORTFOLIO -->
+
+			<!-- START CONTACT US -->
+			<!--div id="contact-us" class="bg-img-5">
+				<div class="background-overlay padd-tb-100">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<h2 class="text-uppercase font-white font-weight-400 mrg-bottom-50">Have a Similar Project?</h2>
+								<a href="contact-us.html" class="btn btn-default-arrow btn-yellow">CONTACT US</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</!div>
+			<!-- /.END CONTACT US -->
+		</section>
+
         
          <footer class="ftco-footer ftco-section">
                 <div class="container">
@@ -175,6 +275,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="js/lightbox.js"></script>
 
 </body>
 </html>
