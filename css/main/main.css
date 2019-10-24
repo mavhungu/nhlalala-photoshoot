@@ -234,7 +234,7 @@ a:focus {
 	left: 0;
 	width: 10px;
 	height: 24px;
-	background: #FFEA01;
+	background: rgba(35, 137, 155, 0.726);
 }
 .page-title .background-overlay {
     background: rgba(0, 0, 0, .3);
@@ -444,7 +444,7 @@ a:focus {
 }
 /************ 1-5. FIXED BORDER  ************/
 .border-left-blue-10 {
-	border-left: 10px solid #01539F;
+	border-left: 10px solid rgba(37, 74, 109, 0.63);
 	display: inline-block;
 }
 .border-left-yellow-10 {
@@ -788,18 +788,7 @@ blockquote footer:before {
 .promo-box .item:hover .fa-long-arrow-right {
 	opacity: 1;
 }
-.promo-box .item:after {
-	content: url("../../img/section/03.jpg");
-	display: block;
-	position: absolute;
-	opacity: 0;
-	top: 0;
-	left: 0;
-	right: 0;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-}
+
 .promo-box .item:hover:after {
 	opacity: 1;
 	-webkit-transition: all .3s ease-in-out;
@@ -819,13 +808,26 @@ blockquote footer:before {
 	position: relative;
 	z-index: 99;
 }
+.promo-box .item:after {
+    content: url("../../img/OFFICE.jpg");
+	display: block;
+	position: absolute;
+	border-radius: 6px 8px;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
 .promo-box .item .overlay {
 	position: absolute;
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: rgba(1, 83, 159, 0.85);
+	background: rgba(49, 90, 51, 0.541);
 	opacity: 0;
 	z-index: 1;
 	-webkit-transition: opacity .3s ease-in-out;

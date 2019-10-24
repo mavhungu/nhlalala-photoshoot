@@ -30,11 +30,14 @@
     <!--link rel="stylesheet" href="css/gallery.css"-->
     <link rel="stylesheet" href="css/main/Stroke-Gap-Icons-Webfont.css">
     <link rel="stylesheet" href="css/query.css">
+    <link rel="stylesheet" href="css/carousel.css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
     <style>
         .body-content{
-            background: rgba(168, 165, 209, 0.603);
+            background: rgba(54, 68, 88, 0.603);
+            
         }
+
     </style>
 </head>
 
@@ -64,18 +67,29 @@
         </ul>
     </div>
 </nav>
-    <section id="about_us">
-        <div class="container">
-            <h5 class="text-center">
-                <!--marks>To be the leader in the professional IT service industry</!marks>
-            <br/>
-                <!--span>Strive to understand our client's needs and go beyond client expectations
-                    in execution of every engagement with the highest levels of efficiency and effectiveness.
-                </!span-->
-            </h5>
+<!-- END OF NAV -->
 
-        </div>
-    </section>
+    	<!-- CAROUSEL -->
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" id="first_slide">
+                        <div class="carousel-caption text-center">
+                            <h1 class="animated fadeInDown delay-2s text-uppercase">BIRTHDAY PARTIES</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="second_slide">
+                        <div class="carousel-caption text-center">
+                            <h1 class="animated fadeInUp delay-2s text-uppercase">GRADUATION</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="third_slide">
+                        <div class="carousel-caption text-center">
+                            <h1 class="animated fadeInDown delay-2s text-uppercase">BABY SHOWERS</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF COROUSEL -->
 
         <!-- SERVICE AREA START HERE -->
 			<div id="service" class="padd-tb-100">
@@ -140,7 +154,7 @@
                                     <i class="fas fa-camera fa-2x me"></i>
                                     <h5> CAMERA</h5>
                                     <p>Take picture</p>
-                                    <a href="#"><i class="fas fa-arrow-right fa-2x"></i></a>
+                                    <a href="gallery.html"><i class="fas fa-arrow-right fa-2x"></i></a>
                                 </div>	
                                 <div class="overlay"></div>
                             </div><!-- /.END ITEM -->
@@ -151,17 +165,33 @@
                                     <i class="fas fa-video fa-2x me"></i>
                                     <h5>VIDEO</h5>
                                     <p>Take video</p>
-                                    <a href="#"><i class="fas fa-arrow-right fa-2x"></i></a>
+                                    <a href="#" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-arrow-right fa-2x"></i></a>
                                 </div>	
                                 <div class="overlay"></div>
                             </div><!-- /.END ITEM -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body text-center font-weight-bold">
+                                        Sorry this section not avialable 
+                                    </div>
+                                    <div class="modal-footer text-center align-items-center">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+
+
                         </div>
                         <div class="col-md-4">
                             <div class="item bg-ghostwhite">
                                 <div class="content">
                                     <i class="fas fa-child fa-2x me"></i>
                                     <h5>EVENTS</h5>
-                                    <p>Host an event</p>
+                                    <p>Hosting an event</p>
                                     <a href="#"><i class="fas fa-arrow-right fa-2x"></i></a>
                                 </div>	
                                 <div class="overlay"></div>
@@ -204,7 +234,7 @@
                                         <h2 class="ftco-heading-2">Services</h2>
                                         <ul class="list-unstyled">
                                             <li><a href="#"><span class="fas fa-arrow-right mr-2"></span>Photoshoot</a></li>
-                                            <li><a href="#"><span class="fas fa-arrow-right mr-2"></span>Web Development</a></li>
+                                            <li><a href="#"><span class="fas fa-arrow-right mr-2"></span>Filming</a></li>
                                             <li><a href="#"><span class="fas fa-arrow-right mr-2"></span>Graphic Design</a></li>
                                         </ul>
                                     </div>

@@ -4,7 +4,6 @@
 
 body {
   padding-top: 0rem;
-  /*padding-bottom: 3rem;*/
   color: #5a5a5a;
 }
 
@@ -14,12 +13,8 @@ body {
 /* Carousel base class */
 /*------------------------------- vertical carousel indicators ------------------------------*/
 .carousel-indicators{
-  /*position:absolute;*/
-  
   bottom: 32px;
   margin:auto;
-  /*height:20px;
-  /*right:10px; left:auto;*/
   width:auto;
   }
   .carousel-indicators li{
@@ -33,7 +28,7 @@ body {
   }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 15rem;
   z-index: 10;
 }
 .carousel-caption p a{
@@ -49,11 +44,19 @@ transform: translate(12px, 50%);
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 100vh;
-  /*background-color: #777;*/
-  /*background: linear-gradient(rgba(0,0,0, .4),rgba(0,0,0, .6));*/
   background: rgba(6, 12, 34, 0.6);
 }
-#first_slide{
+.carousel-inner{
+  background:url("../img/webspec/26487952_Unknown.jpeg") center center no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+
+/*#first_slide{
   background:url("https://spyre-theme.bitbucket.io/v1.2.0/assets/img/img-39.jpg") center center no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -100,7 +103,7 @@ transform: translate(12px, 50%);
   top: 0;
   left: 0;
   right: 0;
-}
+}*/
 .carousel-item > img {
   position: absolute;
   top: 0;

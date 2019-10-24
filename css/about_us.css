@@ -170,7 +170,7 @@ html, html a {
       left: 0;
       width: 10px;
       height: 24px;
-      background: #FFEA01;
+      background: rgba(35, 137, 155, 0.726);
   }
   .page-title .background-overlay {
       background: rgba(0, 0, 0, .3);
@@ -183,7 +183,7 @@ html, html a {
       line-height: 40px;
   }
   .border-left-blue-10 {
-    border-left: 10px solid #01539F;
+    border-left: 10px solid rgb(37, 74, 109, 0.63);
     display: inline-block;
 }
   
