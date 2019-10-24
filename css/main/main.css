@@ -514,6 +514,7 @@ a:focus {
 }
 .hover-img:hover .hover-content {
   opacity: 1;
+  border-radius: 8px;
 }
 
 .hover-content {
