@@ -789,22 +789,22 @@ blockquote footer:before {
 	opacity: 1;
 }
 .promo-box .item:after {
-	content: url("../img/promo/26487952_Unknown.jpeg");
+	content: url("../../img/section/03.jpg");
 	display: block;
 	position: absolute;
 	opacity: 0;
 	top: 0;
 	left: 0;
 	right: 0;
-	 -webkit-transition: all .3s ease-in-out;
-		-moz-transition: all .3s ease-in-out;
-			 transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 .promo-box .item:hover:after {
 	opacity: 1;
-	 -webkit-transition: all .3s ease-in-out;
-		-moz-transition: all .3s ease-in-out;
-			 transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 .promo-box .item:hover h5,
 .promo-box .item:hover p {
@@ -828,16 +828,16 @@ blockquote footer:before {
 	background: rgba(1, 83, 159, 0.85);
 	opacity: 0;
 	z-index: 1;
-	 -webkit-transition: opacity .3s ease-in-out;
-		-moz-transition: opacity .3s ease-in-out;
-			 transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
 	
 }
 .promo-box .item:hover .overlay {
 	opacity: 1;
-	 -webkit-transition: opacity .3s ease-in-out;
-		-moz-transition: opacity .3s ease-in-out;
-			 transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
 
 }
 /************ 1-11. BANNER CALL  ************/
