@@ -47,7 +47,7 @@ transform: translate(12px, 50%);
   background: rgba(6, 12, 34, 0.6);
 }
 .carousel-inner{
-  background:url("../img/power/back.png") center center no-repeat;
+  background:url("../img/power/back2.png") center center no-repeat;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -55,55 +55,6 @@ transform: translate(12px, 50%);
   position: relative;
   min-height: 100vh;
 }
-
-/*#first_slide{
-  background:url("https://spyre-theme.bitbucket.io/v1.2.0/assets/img/img-39.jpg") center center no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  min-height: 100vh;
-}
-#first_slide:before{
-  content: "";
-  background: rgba(6, 12, 34, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-#second_slide{
-  background:url("https://spyre-theme.bitbucket.io/v1.2.0/assets/img/img-40.jpg") center center no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  min-height: 100vh;
-}
-#second_slide:before{
-  content: "";
-  background: rgba(6, 12, 34, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-#third_slide{
-  background:url("https://spyre-theme.bitbucket.io/v1.2.0/assets/img/img-38.jpg") center center no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  min-height: 100vh;
-}
-#third_slide:before{
-  content: "";
-  background: rgba(6, 12, 34, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}*/
 .carousel-item > img {
   position: absolute;
   top: 0;
@@ -164,7 +115,6 @@ transform: translate(12px, 50%);
 }
 .carousel-item {
   height: 100vh;
-  /*background-color: #777;*/
   background: linear-gradient(rgba(0,0,0, .4),rgba(0,0,0, .6));
 }
 .carousel-caption p a{
@@ -191,7 +141,6 @@ transform: translate(12px, 50%);
   }
 .carousel-item {
   height: 100vh;
-  /*background-color: #777;*/
   background: linear-gradient(rgba(0,0,0, .4),rgba(0,0,0, .6));
 } 
 .carousel-caption p {
@@ -212,5 +161,13 @@ transform: translate(12px, 50%);
 .featurette-heading {
     font-size: 60px;
   }
+}
+@media only screen  and (min-width : 1824px) {
+    
+.carousel-caption {
+  bottom: 25rem;
+  z-index: 10;
+} 
+    
 }
 
