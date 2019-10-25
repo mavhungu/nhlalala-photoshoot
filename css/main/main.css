@@ -211,7 +211,7 @@ a:focus {
 	margin-bottom: 35px;
 }
 .page-title {
-	background: url("../../img/section/12333.jpeg");
+	background: url("../../img/power/back.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -810,7 +810,7 @@ blockquote footer:before {
 	z-index: 99;
 }
 .promo-box .item:after {
-    content: url("../../img/OFFICE.jpg");
+    content: url("../../img/power/smile.png");
 	display: block;
 	position: absolute;
 	border-radius: 6px 8px;
