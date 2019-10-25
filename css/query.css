@@ -11,6 +11,11 @@
 
   #exampleModal{
     margin-top: 10rem;
+    
+  }
+  .modal-content{
+    background: rgba(68, 117, 126, 0.562)!important;
+    color: lightgreen;
   }
     
 }
