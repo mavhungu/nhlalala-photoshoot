@@ -480,6 +480,12 @@ a:focus {
 .font-black {
 	color: #1c1c1c;
 }
+.font-focus{
+	color: rgb(53, 103, 119);
+}
+.font-do{
+	color: rgb(19, 87, 114);
+}
 .font-ghostwhite {
 	color: #e1f2ff;
 }
