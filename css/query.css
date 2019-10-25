@@ -11,11 +11,12 @@
 
   #exampleModal{
     margin-top: 8rem;
-    
+
   }
   .modal-content{
     background-color: rgba(40, 75, 82, 0.562)!important;
     color: ghostwhite;
+    
   }
     
 }
@@ -27,6 +28,11 @@
       }
       #exampleModal{
         margin-top: 5rem;
+        
+      }
+      .modal-content{
+        background-color: rgba(40, 75, 82, 0.562)!important;
+        color: ghostwhite;
       }
 }
 /* Large screens ----------- */
