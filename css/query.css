@@ -12,6 +12,15 @@
   .img-responsive{
     border-radius: 38px!important;
   }
+  .gallery-img {
+    backface-visibility: hidden;
+    transition: all .5s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    color: rgba(6, 12, 34, 0.6);
+}
 
   #exampleModal{
     margin-top: 8rem;
