@@ -28,7 +28,7 @@ body {
   }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 15rem;
+  bottom: 3rem;
   z-index: 10;
 }
 .carousel-caption p a{
@@ -48,8 +48,6 @@ transform: translate(12px, 50%);
 }
 .carousel-inner{
   background:url("../img/power/back2.png") center center no-repeat;
-  width: 100%;
-  height: 100%;
   background-size: cover;
   overflow: hidden;
   position: relative;

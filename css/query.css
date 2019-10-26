@@ -1,5 +1,15 @@
+.navbar-nav{
+  padding: 10px;
+}
 @media (min-device-width : 320px) and (max-device-width : 480px) {
-    .me i{
+  .navbar{
+    padding: 25px;
+    
+  }
+  .navbar-nav{
+    padding: 10px;
+  }  
+  .me i{
         display: none!important;
     }
     .events_section_area #projects{
@@ -36,6 +46,13 @@
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 768px) {
+  .navbar{
+    padding: 25px;
+    
+  }
+  .navbar-nav{
+    padding: 10px;
+  }
     .mt-0, .my-0 {
         margin-top: 2rem!important;
       }
@@ -50,7 +67,13 @@
 }
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
+  .navbar{
+    padding: 25px;
     
+  }
+  .navbar-nav{
+    padding: 10px;
+  }
 .carousel-caption {
   bottom: 25rem;
   z-index: 10;
