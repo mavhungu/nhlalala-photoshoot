@@ -47,7 +47,7 @@ transform: translate(12px, 50%);
   background: rgba(6, 12, 34, 0.6);
 }
 .carousel-inner{
-  background:url("../img/power/back2.png") center center no-repeat;
+  background:url("../img/por/back.gif") center center no-repeat;
   width: 100%;
   height: 100%;
   background-size: cover;
