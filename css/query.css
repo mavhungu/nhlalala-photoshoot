@@ -9,6 +9,10 @@
     margin-top: 2rem!important;
   }
 
+  .img-responsive{
+    border-radius: 38px!important;
+  }
+
   #exampleModal{
     margin-top: 8rem;
 
