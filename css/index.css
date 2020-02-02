@@ -1,6 +1,6 @@
 @media (min-device-width : 320px) and (max-device-width : 480px) {    
     .text-center #res{
-            margin-top: 25%;
+        margin-top: 25%;
         background-color: red;
     }
     #about_us{

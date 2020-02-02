@@ -42,10 +42,10 @@
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 768px) {
-  .navbar{
+ /* .navbar{
     padding: 25px;
-    
-  }
+  
+  }*/
   .navbar-nav{
     padding: 10px;
   }
